@@ -16,6 +16,8 @@ const Cart = () => {
     const { tax } = useSelector((state) => state.cart);
     const { total } = useSelector((state) => state.cart);
     const [save, setSave] = useState(true)
+
+    
     useEffect(() => {
         if (save) {
             localStorage.setItem("cartItemsInlocalStorage", JSON.stringify(cart));
