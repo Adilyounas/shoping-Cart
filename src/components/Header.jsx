@@ -11,8 +11,8 @@ const {cartItems} = useSelector((state)=>state.cart)
       <h1>@Logo.</h1>
       <NavLink to={"/"}>Home</NavLink>
       <NavLink to={"/cart"}>
-        <FiShoppingCart />
-        <p>{cartItems.length}</p>
+        <FiShoppingCart className='ssv' />
+        <p className='cartlength'>{cartItems.length}</p>
 
       </NavLink>
 

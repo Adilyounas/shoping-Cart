@@ -1,6 +1,15 @@
 @media screen and (max-width:760px) {
     @import "colors";
 
+.home{
+    padding: 0;
+}
+
+.porductCard{
+    width: 35%;
+    height: 300px;
+}
+
     .cart {
         grid-template-columns: 1fr;
 
@@ -24,5 +33,30 @@
 
     .cartItem > article{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width:630px){
+
+    .home{
+        .porductCard{
+            width: 50%;
+            height: 316px;
+        }
+        
+    }
+}
+
+
+@media screen and (max-width:430px){
+
+    .home{
+        .porductCard{
+            width: 67%;
+            height: 316px;
+        }
+        
+
+        
     }
 }
