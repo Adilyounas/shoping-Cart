@@ -1,24 +1,23 @@
-
-
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
+    z-index: 50000;
     position: sticky;
-    top: 0;
+    top: 0%;
 
-    >a{
 
-        padding: 1rem ;
+    >a {
+
+        padding: 1rem;
         color: black;
         font-size: 18px;
         font-weight: 500;
 
-        >.cartlengthcolors{
-color: red;
-        }
+       
     }
 
-}
+    
 
+}
